@@ -33,13 +33,9 @@ Completed hands-on KQL basic queries in Microsoft Azure Log Analytics through th
 
 ---
 
-# Screenshots
-
 ## 01 – KQL Basic Queries Introduction
 
-**Screenshot**
-
-`01-KQL-Basic-Queries-Introduction.png`
+![01-KQL-Basic-Queries-Introduction](screenshots/01-KQL-Basic-Queries-Introduction.png)
 
 Introduces the TryHackMe KQL Basic Queries lab and Microsoft Azure Log Analytics environment.
 
@@ -47,9 +43,7 @@ Introduces the TryHackMe KQL Basic Queries lab and Microsoft Azure Log Analytics
 
 ## 02 – KQL Demo Logs Workspace
 
-**Screenshot**
-
-`02-KQL-Demo-Logs-Workspace.png`
+![02-KQL-Demo-Logs-Workspace](screenshots/02-KQL-Demo-Logs-Workspace.png)
 
 Connected to the Azure Log Analytics Demo workspace where all KQL queries were executed.
 
@@ -57,9 +51,7 @@ Connected to the Azure Log Analytics Demo workspace where all KQL queries were e
 
 ## 03 – KQL Available Tables
 
-**Screenshot**
-
-`03-KQL-Available-Tables.png`
+![03-KQL-Available-Tables](screenshots/03-KQL-Available-Tables.png)
 
 ### Query
 
@@ -77,9 +69,7 @@ Displays all available log tables in Azure Log Analytics and counts the number o
 
 ## 04 – KQL Where Operator Results
 
-**Screenshot**
-
-`04-KQL-Where-Operator-Results.png`
+![04-KQL-Where-Operator-Results](screenshots/04-KQL-Where-Operator-Results.png)
 
 ### Query
 
@@ -97,9 +87,7 @@ Filters log entries to display only events generated during the last 24 hours.
 
 ## 05 – KQL Sort Operator Results
 
-**Screenshot**
-
-`05-KQL-Sort-Operator-Results.png`
+![05-KQL-Sort-Operator-Results](screenshots/05-KQL-Sort-Operator-Results.png)
 
 ### Query
 
@@ -118,9 +106,7 @@ Sorts the filtered results from newest to oldest before displaying the first ten
 
 ## 06 – KQL Project Operator
 
-**Screenshot**
-
-`06-KQL-Project-Operator.png`
+![06-KQL-Project-Operator](screenshots/06-KQL-Project-Operator.png)
 
 ### Query
 
@@ -139,9 +125,7 @@ Displays only the columns needed for analysis, making the results easier to read
 
 ## 07 – KQL Summarize Operator
 
-**Screenshot**
-
-`07-KQL-Summarize-Operator.png`
+![07-KQL-Summarize-Operator](screenshots/07-KQL-Summarize-Operator.png)
 
 ### Query
 
@@ -159,9 +143,7 @@ Uses the **summarize** operator with the **count()** aggregation function to cal
 
 ## 08 – KQL Count Aggregation
 
-**Screenshot**
-
-`08-KQL-Count-Aggregation.png`
+![08-KQL-Count-Aggregation](screenshots/08-KQL-Count-Aggregation.png)
 
 ### Query
 
@@ -178,9 +160,7 @@ Calculates the total number of records stored in the **AppTraces** table using t
 
 ## 09 – KQL Average Aggregation
 
-**Screenshot**
-
-`09-KQL-Avg-Aggregation.png`
+![09-KQL-Avg-Aggregation](screenshots/09-KQL-Avg-Aggregation.png)
 
 ### Query
 
@@ -188,6 +168,10 @@ Calculates the total number of records stored in the **AppTraces** table using t
 AppRequests
 | summarize AverageDuration = avg(DurationMs)
 ```
+
+### Purpose
+
+Calculates the average application request duration (milliseconds) using the **avg()** aggregation function.
 
 ### Purpose
 
